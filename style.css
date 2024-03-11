@@ -24,10 +24,31 @@ h1 {
     background-color:aliceblue;
     font-size: larger;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 p,li {
     font-family:'Courier New', Courier, monospace;
+}
+
+.layout {
+    display:flex;
+    justify-content:center;
+}
+
+.right-content {
+    width:750px;
+}
+
+.right-subcontent {
+    background-color: rgba(220, 224, 245, 0.175);
+    padding:50px;
+    border-radius:10px;
+    width:690px;
+}
+
+.left-content {
+    margin-right:50px;
 }
 
 #edandclubs{
