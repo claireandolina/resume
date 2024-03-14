@@ -28,7 +28,7 @@ h1 {
 
 body {
     background-image: linear-gradient(#fad0f3, #d2f8ff);
-
+    background-attachment: fixed;
 }
 
 
