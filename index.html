@@ -2,129 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claire's Resume</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Claire's Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body class = "gradient-background">
-    <div class="layout">
-    <div class="left-content">
-        <h1>Claire Andolina</h1>
-        <img src="./assets/images/claire-headshot.jpeg" size = 200/>
-        <p>Aspiring Full-Stack Developer from Carlsbad, CA. 🌊</p>
-
-    </div>
-    <div class="right-content">
-        <div id="navbar" class="right-content">
-            <a href="#about">About</a></li>
-            <a href="#edu">Education</a></li>
-            <a href="#clubs">Clubs</a></li>
-            <a href="#exp">Experience</a></li>
-            <a href="#proj">Projects</a></li>
-            <a href="#skills">Skills</a></li>
-            <a href="https://www.linkedin.com/in/claire-andolina/">Contact</a></li>
-        </div>
-        <div class="right-subcontent">
-            <h2 id="about">About Me</h2>
-            <p>I am a student studying computer science & engineering, chemistry, and neurobiology at UC San Diego. I currently intern at Thermo Fisher Scientific on the MFG Informatics team as a Software Developer Project Specialist. My interests are encompassed by software design and team-oriented development.</p>
-            <hr />
-            <div id="edandclubs">
-                <div class="edudiv">
-                    <h2 id="edu">Education</h2>
-                    <ul>
-                        <li>Bachelor's of Science, Neurobiology - University of California, San Diego (2024) 3.5 GPA</li>
-                        <ul>
-                            <li>Minor in Computer Science and Engineering</li>
-                            <li>Minor in Chemistry</li>
-                        </ul>
-                    </ul>
-                </div>
-                <div class="clubdiv">
-                    <h2 id="clubs">Affiliations</h2>
-                    <ul>
-                        <li>Triton Neurotech</li>
-                        <li>ACM (Association of Computing Machinery)</li>
-                        <li>Bioinformatics Club</li>
-                    </ul>
+<body>
+    <div class="blue">
+        <div class="px-4 py-5 my-0 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">Hi, I'm Claire</h1>
+            <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">A Full-Stack Developer.        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud" viewBox="0 0 16 16">
+                <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+              </svg></p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <div class="col-10">
+                    <img src="./assets/images/web-fraphic.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
             </div>
-            <hr />
-            <h2 id="skills">Skills</h2>
-            <ul>
-                <li>Software development, testing (Selenium), debugging, wireframing, and modeling (UML)</li>
-                <li>Detailed, efficient, and organized</li>
-                <li>OOP (Java, C#) and web development (MERN-stack)</li>
-                <li>Project management (Github, Azure) and leadership</li>
-                <li>Hardware calibration, installation, validation, and maintenance</li>
-                <li>Technical documentation (manufacturing, user-testing, and batch records)</li>
-                <li>Data analytics (Python, Excel, SQL, Power BI, Power Query,  R)</li>
-                <li>Agile SCRUM development practices</li>
-                <li>Team-oriented problem solving</li>
-                <li>APIs and AWS</li>
-            </ul>
-            <hr/>
-            <h2 id="exp">Work Experience</h2>
-            <ul>
-                <li><h5>Software Development Project Specialist - Thermo Fisher Scientific</h5>
-                <p>Jan 2023 - Present</p></li>
-                <ul>
-                    <li>Team-oriented strategizing, code optimization, and contribution in application/tool development (requirements gathering, development, testing, implementation, and documentation) in various languages and troubleshooting IT-related issues with clients.</li>
-                    <li>Implement process improvements in MFG batch records through automation and error proofing (validation) using MS Excel or other platforms</li>
-                    <li>Host daily Agile SCRUM standup meetings, presentation, communication, and documentation. Lifecycle tracking through Azure.</li>
-                    <li>Development of controlled documents, data analysis (Power BI, Excel, MS SQL, VBA), business data models and reports.</li>
-                    <li>Collaboration with cross-functional teams to streamline business procedures with software tools & company databases</li>
-                    <li>Hardware and equipment installation for lab data acquisition with subsequent equilibration and software validation</li>
-                </ul>
-                <li><h5>Antibody Conjugation MFG Scientist - Thermo Fisher Scientific</h5>
-                    <p>June 2022 - December 2022</p></li>
-                    <ul>
-                        <li>Performance and optimization of appropriate methods for molecular and chemical antibody conjugation with various customer dye orders in a fast-paced manufacturing setting, followed by standard and thorough documentation</li>
-                        <li>Compliance with policies and procedures related to R&D, SOP revisions and data import, handling problem reports</li>
-                    </ul>
-                <li><h5>Biotechnology Project Specialist - Tioga Research</h5>
-                <p>Jan 2022 - May 2022</p>
-                    <ul>
-                        <li>Initiation of interviews with materials chemistry and sustainability professionals to direct research and quantify market value of various hypothetical industrial solutions to plastic tubing, followed by presentation of a high-level materials technology road map to a company to replace trash plastic tube products with sustainable alternatives</li>
-                    </ul>
-                </li>
-            </ul>
-            <hr />
-            <h2 id="proj">Projects</h2>
-            <ul>
-                <li><h5>Full-Stack EHS Management Portal</h5>
-                    <p>September 2023 - Present</p>
-                    <ul>
-                        <li>Start-to-finish website for management of safety gear allocation and expense management. Uses API for AWS secret manager and S3 for credentials and access management.
-                        </li>
-                        <li>Conversion of interactive forms to </li>
-                        <li>Requirements gathering, Agile milestones and tasks management/time allocation, data modeling, integration and unit testing, activity and class diagrams.</li>
-                        <li>Presentation of scalability of my product to stakeholders.</li>
-                        <li>Screenshot of login page or wireframe or project roadmap here</li>
-                    </ul>
-                </li>
-                <li><h5>Automated Document Archival Tool</h5>
-                    <p>June 2023 - September 2023</p>
-                    <ul>
-                        <li>C# application for automated parsing, organization, and archival of controlled XML documents in company sharedrive to streamline information retrieval used in daily Tier 3 Reports</li>
-                        <li>Created an API to bulk-transfer data across apps (from excel into MSSQL database)</li>
-                        <li>Screenshot of documentation/activity diagram here</li>
-                    </ul>
-                </li>
-                <li><h5>Facial Recognition Data Science Project</h5>
-                    <p>January 2023 - March 2023</p>
-                <ul>
-                    <li>
-                        dSPM, sLORETA, γ-MAP, and TF-MxNE inverse solver algorithms applied to public EEG facial recognition data to spatially localize signal sources and analyze how well the data is explained by each algorithm.
-                        Links to the project notebook and written report are available <a href="https://github.com/claireandolina/MNE-Python-Analysis">here</a>.
-                    </li>
-                </ul></li>
-            </ul>
-            <hr />
+            </div>
         </div>
     </div>
+    <div class="my-0">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <h1 class="text-body-emphasis">About Me</h1>
+            <p class="col-lg-8 mx-auto lead">
+              I currently work at Thermo Fisher Scientific, graduated from UC San Diego with a degree in Neurobiology and minors in Computer Science and Chemistry. I love coffee and going for outdoor runs.
+            </p>
+            <div class="d-inline-flex gap-2 mb-5">
+                <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                  Resume <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                  </svg>
+                </button>
+                <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                  Contact Me <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                  </svg>
+                </button>
+            </div>
+        </div>
     </div>
-    <footer>Claire Andolina</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Claire Andolina</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
 </body>
 </html>
